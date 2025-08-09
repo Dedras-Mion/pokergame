@@ -38,6 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       body: BackgroundMain(
         bodyWidget: SafeArea(
@@ -100,7 +101,8 @@ class _SplashScreenState extends State<SplashScreen> {
                               startColor: ColorConstants.instance.graStart,
                               endColor: ColorConstants.instance.graEnd,
                               title: StringValuesConstants.instance.startGame,
-                            ),)
+                            ),
+                          )
                       ],
                     ),
                   ))
