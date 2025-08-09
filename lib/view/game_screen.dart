@@ -26,6 +26,7 @@ class GameScreen extends StatefulWidget {
 class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
         body: BackgroundMain(
       bodyWidget: SafeArea(

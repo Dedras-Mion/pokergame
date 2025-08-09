@@ -22,6 +22,8 @@ class MyApp extends StatelessWidget {
       players: PlayerModel.players
     ),
   );
+
+
   @override
   Widget build(BuildContext context) {
     return StoreProvider<AppState>(
